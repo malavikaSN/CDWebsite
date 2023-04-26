@@ -1,0 +1,18 @@
+
+[2023-04-14 14:28:21] - Sensor 1 changed to yellow
+[2023-04-14 14:28:21] - Sensor 2 changed to yellow
+[2023-04-14 14:28:24] - Sensor 0 changed to yellow
+[2023-04-14 14:47:28] - Sensor 2 changed to yellow
+[2023-04-14 14:47:29] - Sensor 1 changed to yellow
+[2023-04-14 14:47:30] - Sensor 2 changed to red
+[2023-04-14 14:47:31] - Sensor 2 changed to yellow
+[2023-04-14 14:47:31] - Sensor 2 changed to red
+[2023-04-14 14:47:31] - Sensor 0 changed to red
+[2023-04-14 14:51:15] - Sensor 0 changed to yellow
+[2023-04-14 14:51:15] - Sensor 1 changed to red
+[2023-04-14 14:51:16] - Sensor 0 changed to red
+[2023-04-14 14:51:16] - Sensor 2 changed to yellow
+[2023-04-14 14:51:17] - Sensor 1 changed to yellow
+[2023-04-14 14:51:18] - Sensor 0 changed to yellow
+[2023-04-14 15:09:58] - Sensor 0 changed to red
+[2023-04-20 05:10:57] - Sensor 0 changed to yellow
