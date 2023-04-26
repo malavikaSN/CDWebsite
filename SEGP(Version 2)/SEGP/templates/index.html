@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="../static/styles/main.css?v=<%= DateTime.Now.Ticks %>">
+  <div class = "nav">
+    <ul>
+      <element class = "navigationBar">
+        <li class="logo_name">Turtle Streams</li>
+        <li><a href="{{ url_for('about') }}" target = _blank><button class = "buttonNav">About</button></a></li>
+        <li><a href="{{ url_for('updates') }}" target = _blank><button class = "buttonNav">Updates</button></a></li>
+        <li><a href="{{ url_for('stream') }}" target = _blank><button class = "buttonNav">Stream</button></a></li>
+      </element>
+    </ul>
+  </div>
+</head>
+<body>
+  <div class = "inner">
+
+    <img src=" {{url_for('video_feed')}}">
+
+  </div>
+  <!--
+  <form method="post" >
+    <div class = "controls">
+
+      <li><input type = "submit" placeholder = "Start" value = "{{ request.form['Stop']}}"></input></li>
+      <li><input type = "submit" placeholder = "Stop" value = "{{ request.form['Start']}}"></input><li>
+
+      </ul>
+    </div>
+  </form>
+  -->
+<script>
+  window.addEventListener("beforeunload", (event) => {
+
+    event.returnValue = "Leaving this Page Will Stop The Python Program";
+
+  });
+
+</script>
+
+
+</body>
+</html>

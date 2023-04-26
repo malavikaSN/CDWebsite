@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="../static/styles/main.css?v=<%= DateTime.Now.Ticks %>">
+  <!-- box icon -->
+ <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="sidebar">
+
+    <div class="logo_name">
+      Turtle Streams
+    </div>
+
+    <a href="ProgressBar.html" target="_blank" class=add_button>
+
+      <button class=plus_button><img src="../static/favicons/plus-sign.png" class=plus></button>
+
+    </a>
+
+  </div>
+  <div background-color: green;>
+
+	<img src=" {{url_for('video_feed')}}">
+
+  </div>
+
+  <div class = "nav">
+    <ul>
+      <element class = "navigationBar">
+        <li><a href="About.html"><button class = "buttonNav" onclick= "move()">About</button></a></li>
+        <li><a href="Updates.php"><button class = "buttonNav" onclick="move()">Updates</button></a></li>
+        <li><a href="index.php"><button class = "buttonNav" onclick="move()">Stream</button></a></li>
+      </element>
+    </ul>
+  </div>
+
+</section>
+</body>
+</html>
